@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+h3::before {
+  padding-right: 5px;
+  content: "*";
+  color: red;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1 {
+  text-align: center;
+}
+.name {
+  display: flex;
+  gap: 15px;
+  padding: 0 15px;
+  /* max-width: 715px;*/
+}
+.form-control {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.pan-tax-id {
+  width: 370px;
+  padding: 0 15px;
+}
+.address {
+  width: 370px;
+  padding: 0 15px;
+}
+.address-2 {
+  display: flex;
+  gap: 15px;
+  padding: 5px 0;
+}
+.country {
+  width: 180px;
+}
+.phone {
+  display: flex;
+  width: 190px;
+  gap: 5px;
+}
+.selectcode {
+  margin: 0;
+  padding: 0;
+  border: #ccc;
+  border: none;
+}
+.email {
+  display: flex;
+  max-width: 190px;
+  gap: 5px;
+}
+.checkbox,
+.payment {
+  line-height: 1.5;
+}
+.prompt {
+  font-size: 12px;
+  color: #ccc;
+}
+.button {
+  margin-left: 550px;
+  padding: 10px 25px;
+  font-size: 1em;
+  color: white;
+  background: rgb(73, 162, 206);
+  border-radius: 5px;
+}
