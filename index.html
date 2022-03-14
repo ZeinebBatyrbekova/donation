@@ -10,8 +10,8 @@
   <body>
     <h1>Online Donation Form</h1>
     <form action="#" class="container">
-      <h3>1. Name</h3>
       <section class="name">
+      <h3>1. Name</h3>
       <label
         >First name
         <br />
@@ -23,14 +23,14 @@
         <input class="form-control" type="text" required/>
       </label>
       </section>
-      <h3>2. Enter PAN ID/Tax ID</h3>
       <section class="pan-tax-id">
+      <h3>2. Enter PAN ID/Tax ID</h3>
       <label>
         <input class="form-control" type="number" required/>
       </label>
       </section>
-      <h3>3. Address</h3>
       <section class="address">
+      <h3>3. Address</h3>
       <label
         >Address Line 1
         <br />
@@ -72,8 +72,8 @@
         </label>
         </div>
         </section>
-        <h3>4. Phone</h3>
         <section class="phone">
+        <h3>4. Phone</h3>
         <select class="selectcode" name="selectcode" aria-placeholder="&darr" required>
           <option value=""></option>
           <option value="kg">+996</option>
@@ -85,15 +85,17 @@
           <input class="form-control" type="tel" required/>
         </label>
         </section>
+        <section class="email">
         <h3>5. Email</h3>
         <label>
           <input class="form-control email" type="email" placeholder="&#9993" required/>
         </label>
         <br />
-      <h3>6. Type of donation</h3>
+      </section>
+    <section class="checkbox">
+     <h3>6. Type of donation</h3>
       <br/>
-      <section class="checkbox">
-     <label>
+      <label>
         <input type="checkbox" />Love offering
         <br /> 
         <input type="checkbox" />Housing
@@ -111,8 +113,8 @@
         <span class="prompt">Choose as many as you like</span>
       </label>
     </section>
+    <section class="payment">
       <h3>7. Mode of payment</h3>
-      <section class="payment">
       <label>
         <input name="payment" type="radio" value="paypal"/>Paypal
       </label>
@@ -124,11 +126,11 @@
       <label>
         <input name="payment" type="radio" value="cheque"/>Cheque
       </label>
-    </section>
       <br>
       <p>
         <input class="button" type="submit" value="Submit"/>
-      </p>
+      </p> 
+    </section>
     </form>
   </body>
 </html>
