@@ -8,129 +8,129 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Online Donation Form</h1>
     <form action="#" class="container">
-      <section class="name">
-      <h3>1. Name</h3>
-      <label
-        >First name
-        <br />
-        <input class="form-control" type="text" required/>
-        </label>
-        <label>
-        Last name
-        <br>
-        <input class="form-control" type="text" required/>
-      </label>
-      </section>
-      <section class="pan-tax-id">
-      <h3>2. Enter PAN ID/Tax ID</h3>
-      <label>
-        <input class="form-control" type="number" required/>
-      </label>
-      </section>
-      <section class="address">
-      <h3>3. Address</h3>
-      <label
-        >Address Line 1
-        <br />
-        <input class="form-control" type="text" required/>
-      </label>
-      <br />
-      <label
-        >Address Line 2
-        <br />
-        <input class="form-control" type="text" required/>
-      </label>
-      <div class="address-2">
-      <label
-        >City
-        <br />
-        <input class="form-control" type="text" required/>
-      </label> 
-      <label
-        >State/Province
-        <br />
-        <input class="form-control" type="text" required/>
-      </label>
-      </div>
-      <div class="address-2">
-        <label
-        >Zip/Postal Code
-        <br />
-        <input class="form-control" type="text" required/>
-        </label>
-        <label
-        >Country
-        <select class="form-control country" name="Country" required>
-          <option></option>
-          <option value="t1">Кыргызстан</option>
-          <option value="t2">Турция</option>
-          <option value="t3">Япония</option>
-          <option value="t4">Южная Корея</option>
-        </select>
-        </label>
-        </div>
+      <h1>Online Donation Form</h1>
+        <h3>1. Name</h3>
+        <section class="name">
+          <label>
+          First name
+          <br />
+            <input class="form-control" type="text" required/>
+          </label>
+          <label>
+          Last name
+          <br>
+            <input class="form-control" type="text" required/>
+          </label>
         </section>
-        <section class="phone">
+        <h3>2. Enter PAN ID/Tax ID</h3>
+        <section class="pan-tax-id">
+          <label>
+            <input class="form-control" type="number" required/>
+          </label>
+        </section>
+        <h3>3. Address</h3>
+        <section class="address">
+          <label>
+          Address Line 1
+          <br />
+            <input class="form-control" type="text" required/>
+          </label>
+          <br />
+          <label>
+          Address Line 2
+          <br />
+            <input class="form-control" type="text" required/>
+          </label>
+          <div class="address-2">
+            <label
+            >City
+            <br />
+              <input class="form-control" type="text" required/>
+            </label> 
+            <label
+            >State/Province
+            <br />
+              <input class="form-control" type="text" required/>
+            </label>
+          </div>
+          <div class="address-2">
+            <label
+            >Zip/Postal Code
+            <br />
+              <input class="form-control" type="text" required/>
+            </label>
+            <label
+            >Country
+            <select class="form-control country" name="Country" required>
+              <option></option>
+              <option value="t1">Кыргызстан</option>
+              <option value="t2">Турция</option>
+              <option value="t3">Япония</option>
+              <option value="t4">Южная Корея</option>
+            </select>
+            </label>
+          </div>
+        </section>
         <h3>4. Phone</h3>
-        <select class="selectcode" name="selectcode" aria-placeholder="&darr" required>
-          <option value=""></option>
-          <option value="kg">+996</option>
-          <option value="tr">+90</option>
-          <option value="jp">+81</option>
-          <option value="kp">+82</option>
-        </select>
+        <section class="phone">
+          <select class="selectcode" name="selectcode" aria-placeholder="&darr"  required>
+            <option value=""></option>
+            <option value="kg">+996</option>
+            <option value="tr">+90</option>
+            <option value="jp">+81</option>
+            <option value="kp">+82</option>
+          </select>
         <label>
           <input class="form-control" type="tel" required/>
         </label>
         </section>
-        <section class="email">
         <h3>5. Email</h3>
+        <section class="email">
+          <label>
+            <input class="form-control email" type="email" placeholder="&#9993" required/>
+          </label>
+          <br />
+        </section>
+        <h3>6. Type of donation</h3>
+        <section class="checkbox">
+        <br/>
         <label>
-          <input class="form-control email" type="email" placeholder="&#9993" required/>
+          <input type="checkbox" />Love offering
+          <br /> 
+          <input type="checkbox" />Housing
+          <br>
+          <input type="checkbox" />Education
+          <br>
+          <input type="checkbox" />Old age
+          <br>
+          <input type="checkbox" />Children Welfare
+          <br>
+          <input type="checkbox" />Building Expansion
+          <br>
+          <input type="checkbox" />Food
+          <br>
+          <span class="prompt">Choose as many as you like</span>
         </label>
-        <br />
       </section>
-    <section class="checkbox">
-     <h3>6. Type of donation</h3>
-      <br/>
-      <label>
-        <input type="checkbox" />Love offering
-        <br /> 
-        <input type="checkbox" />Housing
-        <br>
-        <input type="checkbox" />Education
-        <br>
-        <input type="checkbox" />Old age
-        <br>
-        <input type="checkbox" />Children Welfare
-        <br>
-        <input type="checkbox" />Building Expansion
-        <br>
-        <input type="checkbox" />Food
-        <br>
-        <span class="prompt">Choose as many as you like</span>
-      </label>
-    </section>
-    <section class="payment">
       <h3>7. Mode of payment</h3>
-      <label>
-        <input name="payment" type="radio" value="paypal"/>Paypal
-      </label>
-      <br>
-      <label>
-        <input name="payment" type="radio" value="banktransfer"/>Bank Transfer
-      </label>
-      <br>
-      <label>
-        <input name="payment" type="radio" value="cheque"/>Cheque
-      </label>
-      <br>
-      <p>
+      <section class="payment">
+        <label>
+          <input name="payment" type="radio" value="paypal"/>Paypal
+        </label>
+        <br>
+        <label>
+          <input name="payment" type="radio" value="banktransfer"/>Bank Transfer
+        </label>
+        <br>
+        <label>
+          <input name="payment" type="radio" value="cheque"/>Cheque
+        </label>
+        <br>
+        <p>
         <input class="button" type="submit" value="Submit"/>
-      </p> 
-    </section>
+        </p> 
+      </section>
     </form>
   </body>
 </html>
